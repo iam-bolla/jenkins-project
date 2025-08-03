@@ -39,7 +39,9 @@ Open port 8080 in EC2 inbound rules.
 Visit http://<your-ec2-ip>:8080 in a browser.
 
 Retrieve the Jenkins admin password:
+```bash
 sudo cat /var/lib/jenkins/secrets/initialAdminPassword
+```
 Install suggested plugins and optionally create an admin user.
  2. Install Docker on EC2
 ```bash
