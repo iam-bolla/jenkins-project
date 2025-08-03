@@ -42,12 +42,11 @@ Retrieve the Jenkins admin password:
 sudo cat /var/lib/jenkins/secrets/initialAdminPassword
 Install suggested plugins and optionally create an admin user.
  2. Install Docker on EC2
-bash
-Copy
-Edit
+```bash
 sudo apt install docker.io -y
 sudo systemctl start docker
 sudo systemctl enable docker
+```
  Grant Permissions to Jenkins & Ubuntu Users
 ```bash
 sudo usermod -aG docker jenkins
