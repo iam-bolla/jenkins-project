@@ -72,6 +72,7 @@ Mount workspace inside containers
 Run pipeline steps inside containers
 
 Clean up after execution
+
 ---
 
 Back in Jenkins:
